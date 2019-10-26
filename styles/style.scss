@@ -1,0 +1,27 @@
+*{
+	margin:0	
+}
+body{
+	background:#000008;
+	color: #a67c00;
+	font-family: sans-serif;
+}
+.container{
+	margin: 20px auto;
+	position: relative;
+	text-align: center;
+	width: 610px;
+}
+
+.controls{
+	padding-top:20px;
+	button{
+		margin: 5px;
+		width: 30%;
+		&.active{
+			background: #282e3c;
+			border-color: #f63;
+			color: whitesmoke;
+		}
+	}
+}
